@@ -47,24 +47,22 @@
 </template>
 
 <script>
+import img1 from '@/assets/img/esync02.png';
+import img2 from '@/assets/img/esync03.png';
+import img3 from '@/assets/img/esync04.png';
+import img4 from '@/assets/img/intren01.png';
+import img5 from '@/assets/img/intren02.png';
+import img6 from '@/assets/img/intren03.png';
+import img7 from '@/assets/img/esync05.png';
+import img8 from '@/assets/img/esync06.png';
+
 export default {
   name: 'E_PriceSync',
   data() {
     return {
-      firstGridImages: [
-        '/src/assets/img/esync02.png',
-        '/src/assets/img/esync03.png',
-        '/src/assets/img/esync04.png'
-      ],
-      secondGridImages: [
-        '/src/assets/img/intren01.png',
-        '/src/assets/img/intren02.png',
-        '/src/assets/img/intren03.png'
-      ],
-      largeImages: [
-        '/src/assets/img/esync05.png',
-        '/src/assets/img/esync06.png'
-      ]
+      firstGridImages: [img1, img2, img3],
+      secondGridImages: [img4, img5, img6],
+      largeImages: [img7, img8],
     }
   }
 }
