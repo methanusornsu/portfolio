@@ -52,9 +52,9 @@ export default {
   data() {
     return {
       firstGridImages: [
-        '/src/assets/img/e-sync02.png',
-        '/src/assets/img/e-sync03.png',
-        '/src/assets/img/e-sync04.png'
+        '/src/assets/img/esync02.png',
+        '/src/assets/img/esync03.png',
+        '/src/assets/img/esync04.png'
       ],
       secondGridImages: [
         '/src/assets/img/intren01.png',
@@ -62,8 +62,8 @@ export default {
         '/src/assets/img/intren03.png'
       ],
       largeImages: [
-        '/src/assets/img/e-sync05.png',
-        '/src/assets/img/e-sync06.png'
+        '/src/assets/img/esync05.png',
+        '/src/assets/img/esync06.png'
       ]
     }
   }
